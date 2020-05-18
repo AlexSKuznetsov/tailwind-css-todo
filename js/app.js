@@ -32,7 +32,7 @@ function startEventListener() {
 }
 
 // добавление задачи в список
-function addTask() {
+function addTask(e) {
   if (input.value !== "") {
     const newLi = document.createElement("li");
     newLi.className = taskStyle;
@@ -43,6 +43,8 @@ function addTask() {
     link.className = "delete-item";
     link.innerHTML = svg;
     newLi.append(link);
+
+    e.preventDefault();
   } else {
     alert("Введите текст");
   }
