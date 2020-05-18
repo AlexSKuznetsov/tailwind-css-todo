@@ -56,6 +56,7 @@ function removeTask(e) {
   if (e.target.parentElement.classList.contains("delete-item")) {
     e.target.parentElement.parentElement.remove();
   }
+  e.preventDefault();
 }
 
 // удаление всех задач из списка
