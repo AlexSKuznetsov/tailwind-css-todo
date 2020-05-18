@@ -7,11 +7,11 @@ const filter = document.querySelector("#filter");
 
 // стили
 const svg = `
-  <svg class="ml-10 h-5 w-5 fill-current text-red-500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24">
+  <svg class="cursor-pointer ml-10 h-5 w-5 fill-current text-red-500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24">
     <path d="M6 18L18 6M6 6l12 12"></path>
   </svg>`;
 
-const taskStyle = `flex justify-between p-3 m-1 items-center border border-gray-400 hover:border-black hover:bg-yellow-100 rounded-sm`;
+const taskStyle = `flex justify-between p-2 m-1 items-center border border-gray-400 hover:border-black hover:bg-yellow-100 rounded-sm`;
 
 // запуск событий
 startEventListener();
