@@ -1,4 +1,7 @@
-# tailwind-css-todo
+# Pure HTML, Javascript and Tailwind CSS Todo Application 
+
+![HTML, JS, Tailwind CSS TODO App](https://github.com/AlexSKuznetsov/tailwind-css-todo/blob/master/Tailwind%20CSS%20demo.gif)
+
 
 В планах:
 
